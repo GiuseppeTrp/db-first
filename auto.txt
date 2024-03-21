@@ -1,0 +1,25 @@
+Tabella: auto
+
+id: SMALLINT, PK
+venditore: VARCHAR(50), UNIQUE
+modello: VARCHAR(25), NOT NULL
+marchio: VARCHAR(25), NOT NULL
+immatricolazione: DATE, NOT NULL
+stato:VARCHAR(10)
+km:MEDIUMINT, DEFAULT(0)
+alimentazione: TEXT,NOT NULL
+motore: FLOAT(5, 2), 
+trasmissione: TEXT, NOT NULL
+colore: TEXT,NOT NULL, NOT NULL
+porte: TINYINT, NOT NULL
+carrozzeria: TEXT,NOT NULL
+prezzo:FLOAT(10,6)
+peso:TINYINT
+bagagliaio:VARCHAR(5)
+posti:VARCHAR(1)
+trazione:VARCHAR(10)
+cambio:TEXT,NOT NULL
+cilindrata:VARCHAR(15)
+potenza:VARCHAR(20)
+autonomia:VARCHAR(10)
+
